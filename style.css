@@ -1,0 +1,119 @@
+body {
+   background-image:url('../Downloads/40b35c823e6a48112b9da304c0c8dc06.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+    text-align: center;
+    cursor: url('../Downloads/icons8-musical-notes-24.png'), auto;  
+}
+
+
+h1 {
+    color: rgb(225, 225, 225);
+    background-color: rgba(0, 0, 0, 0);
+    margin-bottom: 20px;
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    cursor: url('../Downloads/icons8-musical-notes-24.png'), auto;   
+}
+
+#playlist {
+    color: rgb(255, 255, 255);
+    border: solid;
+    padding: 10px;
+    border-width: 2px;
+    border-radius: 20px;
+    background-color: #000000;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+    vertical-align: middle;
+    display: inline-block;
+    list-style-type: square;
+    background-image: url('../Downloads/7SAR.gif');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+#songs-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    border-color: white;
+    width: 320px;
+    height: 430px;
+    overflow: auto;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+#add-song-form {
+    margin: none;
+}
+
+input[type="file"]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: #3f4140;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    cursor: url('../Downloads/icons8-musical-notes-24.png'), auto;  
+}
+input[type="file"]::file-selector-button:hover{
+    transform: scale(0.9);
+}
+.song-add {
+    text-align: left;
+    display: block;
+    text-align: center;
+    margin: 10px;
+}
+
+input[type="file"] {
+    background-color: rgb(171, 182, 179);
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+    border-radius: 5px;
+    cursor: pointer;    
+    cursor: url('../Downloads/icons8-musical-notes-24.png'), auto;  
+}
+input[type="file"]:hover {
+    border-color: brown;
+}
+    
+
+button {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-style: solid;
+    border-color: hwb(0 100% 0%);
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: url('../Downloads/icons8-musical-notes-24.png'), auto;  
+    transition: .2s ease-in-out;
+    margin-bottom: 10px;
+}
+button:hover {
+    transform: scale(0.9);
+    
+}
+button:active {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
